@@ -1,5 +1,5 @@
 
-def get_info ():
+def get_info():
     info = []
     last_name = input('Введите фамилию:  ')
     info.append(last_name)
@@ -7,10 +7,10 @@ def get_info ():
     info.append(first_name)
     middle_name = input('Введите отчество:  ')
     info.append(middle_name)
-    position= input('Введите должность:   ')
+    position = input('Введите должность:   ')
     info.append(position)
     phone_number = ''
-    valid =False
+    valid = False
     while not valid:
         try:
             phone_number = input('Введите номер телефона: ')
