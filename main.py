@@ -8,7 +8,6 @@ Config.set("graphics", "resizable", "0")
 Config.set("graphics", "width", "600")
 Config.set("graphics", "height", "600")
 
-
 class MainApp(App):
     def __init__(self):
         super().__init__()
