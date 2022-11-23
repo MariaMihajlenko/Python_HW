@@ -9,7 +9,7 @@ from aiogram import Bot, Dispatcher, executor, types
 from sympy import symbols
 from sympy.parsing.sympy_parser import parse_expr
 
-API_TOKEN = '******'
+API_TOKEN = ''
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
