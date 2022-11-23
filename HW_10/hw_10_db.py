@@ -9,7 +9,7 @@ It echoes any incoming text messages.
 import logging
 import csv
 from aiogram import Bot, Dispatcher, executor, types
-API_TOKEN = '****'
+API_TOKEN = ''
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
@@ -22,10 +22,10 @@ async def send_welcome(message: types.Message):
     """
     БД к работе готова!!!!
 Введите цифру относящуюся к действию:    
-"1 - вывод содержимого файла в консоль"
-"2 - добавление данных"
-"3 - удаление данных"
-"4 - редактирование данных"
+"/1 - вывод содержимого файла в консоль"
+"/2 - добавление данных"
+"/3 - удаление данных"
+"/4 - редактирование данных"
     """
     await message.reply("Hi!\nБД к работе готова!!!!\nВведите цифру относящуюся к действию:\n1 - вывод содержимого файла в консоль\n2 - добавление данных\n3 - удаление данных\n4 - редактирование данных")
 
